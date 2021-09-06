@@ -26,5 +26,6 @@ The goal is to carry out clash detection project coordination at any phase of a 
 ## Workflow
 In the git repository files uploaded above, you will find folders for the whole operation. The workflow is explained in the images below and a quick video shhowing a sample workflow is also provided.
 
+
 ![Artboard 1](https://user-images.githubusercontent.com/68663705/132239256-af8d4e6d-e407-4857-b83a-0c3bb9736ccd.png)
 
