@@ -180,4 +180,4 @@ with pd.ExcelWriter(ExcelMatrixFile) as writer:
         index = True,
     )
 
-NCM.head(10)
+NCM.head(15)
