@@ -12,7 +12,13 @@ Automating Clash Detection through a workflow from Revit, Dynamo and ending in N
 1. As an Architect, Engineer, BIM Manager/Coordinator who will find this workflow useful, i believe you have Revit and Navisworks already installed on your computer. If not you can download the 30 days free trial here; [Revit Download](https://www.autodesk.com/products/revit/free-trial), [Navisworks Download](https://www.autodesk.com/products/navisworks/free-trial)
 2. Download and Install [Python](https://www.python.org/downloads/)
 3. Download and install any IDE of your choice. I would recommend [Visual Studio Code](https://code.visualstudio.com/download)
-4. Install [Pandas](https://pandas.pydata.org/docs/getting_started/install.html), [NumPy](https://numpy.org/install/), [Openpyxl](https://openpyxl.readthedocs.io/en/stable/), [xlsxwriter](https://xlsxwriter.readthedocs.io/getting_started.html);  The link describes the process.
+4. Install the following Python modules/libraries; [Pandas](https://pandas.pydata.org/docs/getting_started/install.html), [NumPy](https://numpy.org/install/), [Openpyxl](https://openpyxl.readthedocs.io/en/stable/), [xlsxwriter](https://xlsxwriter.readthedocs.io/getting_started.html), [lmxl](https://lxml.de/installation.html);  The link describes the process. P.S: Ensure to use the **pip** installation option for all the python modules/libraries
 5. You need just basic understanding of Dynamo and Revit although you should have developed your skills in Python and Navisworks to an intermediate level before you can customize the workflow to suite your business.
 6. In general, anyone can utilize this workflow in their business because it's just a matter of few click to make the trick happen
-7. If need be you can have a walkthrough on the Python Data Analytics liibrarie utilized in the process. Some of which are; [Pandas](https://www.w3schools.com/python/pandas/default.asp), [NumPy](https://www.w3schools.com/python/numpy/default.asp), [xlsxwriter](https://xlsxwriter.readthedocs.io/index.html), 
+7. If need be you can have a walkthrough tutorial on the Python Data Analytics libraries i utilized in the process. Some of which are; [Pandas](https://www.w3schools.com/python/pandas/default.asp), [NumPy](https://www.w3schools.com/python/numpy/default.asp), [xlsxwriter](https://xlsxwriter.readthedocs.io/index.html), 
+
+
+## Introduction
+Python is the programming language used in developing this workflow outside Revit. However, the whole process kickstarts in Revit during or after the BIM model authoring. 
+The goal is to carry out clash detection project coordination at any phase of a BIM project. This is achieved by running through the workflow again and again when changes are made in the Revit model. Alas, it takes just few minutes when compared to the traditional method of doing it manually. 
+
