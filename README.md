@@ -1,5 +1,5 @@
 # Clash-Detection-Matrix-Automation
-Automating Clash Detection through a workflow from Revit, Dynamo and ending in Navisworks using Python scripting as BIG Data Analysis tool
+Automating Clash Detection through a workflow from Revit, Dynamo and ending in Navisworks using Python scripting as a BIG Data Analytics tool
 
 ## What can do with this workflow?
 1. If you would like to have information of all your Revit modelled **Elements** and **Categories** for both linked and active/open revit models, exported to an **Excel spreadsheet** in just one click, then the first part of this workflow would be just great.
