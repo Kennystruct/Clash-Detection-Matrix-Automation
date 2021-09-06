@@ -20,5 +20,10 @@ Automating Clash Detection through a workflow from Revit, Dynamo and ending in N
 
 ## Introduction
 Python is the programming language used in developing this workflow outside Revit. However, the whole process kickstarts in Revit during or after the BIM model authoring. 
-The goal is to carry out clash detection project coordination at any phase of a BIM project. This is achieved by running through the workflow again and again when changes are made in the Revit model. Alas, it takes just few minutes when compared to the traditional method of doing it manually. 
+The goal is to carry out clash detection project coordination at any phase of a BIM project. This is achieved by running through the workflow again and again when changes are made in the Revit model. Alas, it takes just few minutes when compared to the traditional method of doing it manually in Navisworks.
 
+![Workflow](https://drive.google.com/file/d/1gcHGRBsMdq1mdRPcG5wps4npOAVYvdSl/view?usp=sharing)
+
+
+## Workflow
+In the 
