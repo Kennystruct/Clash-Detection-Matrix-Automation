@@ -11,7 +11,7 @@ Automating Clash Detection through a workflow from Revit, Dynamo and ending in N
 ## Getting Started
 1. As an Architect, Engineer, BIM Manager/Coordinator who will find this workflow useful, i believe you have Revit and Navisworks already installed on your computer. If not you can download the 30 days free trial here; [Revit Download](https://www.autodesk.com/products/revit/free-trial), [Navisworks Download](https://www.autodesk.com/products/navisworks/free-trial)
 2. Download and Install [Python](https://www.python.org/downloads/)
-3. Download and install any IDE of your choice. I would recommend [Visual Studio Code](https://code.visualstudio.com/download)
+3. Download and install any [IDE](https://www.google.com/search?q=IDE&rlz=1C1JJTC_enNG967NG967&oq=IDE&aqs=chrome..69i57j0i271l3.2128j0j4&sourceid=chrome&ie=UTF-8) of your choice. I would recommend [Visual Studio Code](https://code.visualstudio.com/download)
 4. Install the following Python modules/libraries; [Pandas](https://pandas.pydata.org/docs/getting_started/install.html), [NumPy](https://numpy.org/install/), [Openpyxl](https://openpyxl.readthedocs.io/en/stable/), [xlsxwriter](https://xlsxwriter.readthedocs.io/getting_started.html), [lmxl](https://lxml.de/installation.html);  The link describes the process. P.S: Ensure to use the **pip** installation option for all the python modules/libraries
 5. You need just basic understanding of Dynamo and Revit although you should have developed your skills in Python and Navisworks to an intermediate level before you can customize the workflow to suite your business.
 6. In general, anyone can utilize this workflow in their business because it's just a matter of few click to make the trick happen
