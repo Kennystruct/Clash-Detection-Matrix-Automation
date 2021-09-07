@@ -32,10 +32,19 @@ In the git repository files uploaded above, you will find folders for the whole 
 - Make sure to install all the python packages/modules/libraries i used in both python script
 - To access all the files and documents for this workflow, check out the **Go To FIle** option here on my page in GitHub. All files are well arranged in each folders.
 - Sample Revit models have been provided for you to test the workflow. It's located in the **Sample Revit Models** folder
-- The Workflow How-To Video and PDF description is provided in the **Workflow Docs**
+- The Workflow How-To Video and PDF description is provided in the **Workflow Docs** folder
 
 
+## Dealing with Issues
+If you have any issues with the workflow, check the list of currently Open and previously reported issues for anything similar to yours. If you can't find an issue similar to yours, you can comment out your issues and it will be addressed
 
+
+## What's the Future Holds
+I intend coming up with a free **Revit plugin** that encapsulates all the processes involved in this clash matrix automation workflow. Work has started to achieve this. Hence, in the next few months, news about the Plugin release will be out. 
+
+Pray for me so it won't take so much time
+
+Much love! 
 
 
 ![Artboard 1](https://user-images.githubusercontent.com/68663705/132239256-af8d4e6d-e407-4857-b83a-0c3bb9736ccd.png)
