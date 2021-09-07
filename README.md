@@ -25,6 +25,17 @@ The goal is to carry out clash detection project coordination at any phase of a 
 
 ## Workflow
 In the git repository files uploaded above, you will find folders for the whole operation. The workflow is explained in the images below and a quick video shhowing a sample workflow is also provided.
+  ### Few facts to consider in this workflow;
+- It works for any Revit project with other Linked models like Structural and MEP models
+- The Dynamo files would come up with some **WARNINGS** but not to worry, it doesn't affect your script, the results would still come out fine
+- I recommend you run the Dynamo script using **Dynamo Player**. And if you don't know how to use Dynamo Player, you can check [here](https://www.youtube.com/watch?v=R8usi9c2BVg) or [here](https://www.youtube.com/watch?v=oCDE_t6XoLI)
+- Make sure to install all the python packages/modules/libraries i used in both python script
+- To access all the files and documents for this workflow, check out the **Go To FIle** option here on my page in GitHub. All files are well arranged in each folders.
+- Sample Revit models have been provided for you to test the workflow. It's located in the **Sample Revit Models** folder
+- The Workflow How-To Video and PDF description is provided in the workflow folder
+
+
+
 
 
 ![Artboard 1](https://user-images.githubusercontent.com/68663705/132239256-af8d4e6d-e407-4857-b83a-0c3bb9736ccd.png)
