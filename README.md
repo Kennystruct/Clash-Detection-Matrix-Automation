@@ -32,7 +32,7 @@ In the git repository files uploaded above, you will find folders for the whole 
 - Make sure to install all the python packages/modules/libraries i used in both python script
 - To access all the files and documents for this workflow, check out the **Go To FIle** option here on my page in GitHub. All files are well arranged in each folders.
 - Sample Revit models have been provided for you to test the workflow. It's located in the **Sample Revit Models** folder
-- The Workflow How-To Video and PDF description is provided in the workflow folder
+- The Workflow How-To Video and PDF description is provided in the **Workflow Docs**
 
 
 
