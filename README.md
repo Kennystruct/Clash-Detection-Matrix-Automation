@@ -11,7 +11,7 @@ Automating Clash Detection through a workflow from Revit, Dynamo and ending in N
 ## Getting Started
 1. As an Architect, Engineer, BIM Manager/Coordinator who will find this workflow useful, i believe you have Revit and Navisworks already installed on your computer. If not you can download the 30 days free trial here; [Revit Download](https://www.autodesk.com/products/revit/free-trial), [Navisworks Download](https://www.autodesk.com/products/navisworks/free-trial)
 2. Download and Install [Python](https://www.python.org/downloads/)
-3. Download and install any IDE of your choice. I would recommend [Visual Studio Code](https://code.visualstudio.com/download)
+3. Download and install any [IDE](https://www.google.com/search?q=IDE&rlz=1C1JJTC_enNG967NG967&oq=IDE&aqs=chrome..69i57j0i271l3.2128j0j4&sourceid=chrome&ie=UTF-8) of your choice. I would recommend [Visual Studio Code](https://code.visualstudio.com/download)
 4. Install the following Python modules/libraries; [Pandas](https://pandas.pydata.org/docs/getting_started/install.html), [NumPy](https://numpy.org/install/), [Openpyxl](https://openpyxl.readthedocs.io/en/stable/), [xlsxwriter](https://xlsxwriter.readthedocs.io/getting_started.html), [lmxl](https://lxml.de/installation.html);  The link describes the process. P.S: Ensure to use the **pip** installation option for all the python modules/libraries
 5. You need just basic understanding of Dynamo and Revit although you should have developed your skills in Python and Navisworks to an intermediate level before you can customize the workflow to suite your business.
 6. In general, anyone can utilize this workflow in their business because it's just a matter of few click to make the trick happen
@@ -32,10 +32,19 @@ In the git repository files uploaded above, you will find folders for the whole 
 - Make sure to install all the python packages/modules/libraries i used in both python script
 - To access all the files and documents for this workflow, check out the **Go To FIle** option here on my page in GitHub. All files are well arranged in each folders.
 - Sample Revit models have been provided for you to test the workflow. It's located in the **Sample Revit Models** folder
-- The Workflow How-To Video and PDF description is provided in the workflow folder
+- The Workflow How-To Video and PDF description is provided in the **Workflow Docs** folder
 
 
+## Dealing with Issues
+If you have any issues with the workflow, check the list of currently Open and previously reported issues for anything similar to yours. If you can't find an issue similar to yours, you can comment out your issues and it will be addressed
 
+
+## What's the Future Holds
+I intend coming up with a free **Revit plugin** that encapsulates all the processes involved in this clash matrix automation workflow. Work has started to achieve this. Hence, in the next few months, news about the Plugin release will be out. 
+
+Pray for me so it won't take so much time
+
+## Much love! :v::heart:
 
 
 ![Artboard 1](https://user-images.githubusercontent.com/68663705/132239256-af8d4e6d-e407-4857-b83a-0c3bb9736ccd.png)
