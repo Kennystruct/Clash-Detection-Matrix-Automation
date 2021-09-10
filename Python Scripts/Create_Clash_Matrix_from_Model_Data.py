@@ -11,13 +11,13 @@ import openpyxl
 
 #Import files from file path
 file_path = r'C:\Users\m\Documents\PROGRAMMING SCRIPTS\CLASH MATRIX AUTOMATION\Excel Runtime Files'
+
 os.chdir(file_path)
-ExcelRevitData_File_Name = "All Model Elements Data"
-ExcelRevitData_File_Path = r'C:\Users\m\Documents\PROGRAMMING SCRIPTS\CLASH MATRIX AUTOMATION\Clash Matrix Data\All Model Elements Data.xlsx'
-ExcelMatrixFile = r'C:\Users\m\Documents\PROGRAMMING SCRIPTS\CLASH MATRIX AUTOMATION\Clash Matrix Data\Navisworks_Clash_Matrix.xlsx'
+
+ExcelRevitData_File_Name = "Model Elements Data.xlsx"
 
 #Read 'All Model Elements Data' file
-excel_df = pd.read_excel(ExcelRevitData_File_Path, sheet_name=None)
+excel_df = pd.read_excel(ExcelRevitData_File_Name, sheet_name=None)
 
 #Create Dataframe to concatenate multiple sheets
 df = pd.concat(excel_df,ignore_index=False,sort=False,axis= 1)
@@ -170,14 +170,19 @@ NCM = pd.read_excel(
     keep_default_na=True
 )
 
-with pd.ExcelWriter(ExcelMatrixFile) as writer:
+with pd.ExcelWriter('ExcelClashMatrix.xlsx') as writer:
     NCM.to_excel(
         writer, 
-        sheet_name='All Model ELements',
+        sheet_name='Clash Matrix Data',
         startrow= 0,
         startcol= 0,
         header= True,
         index = True,
     )
 
-NCM.head(15)
+files_delete = ['01_Merged_Sheets.xlsx','02_Data_Write_Matrix.xlsx','03_Matrix_Data.xlsx','05_Clash_Matrix.xlsx']
+
+for file in files_delete:
+    os.remove(file)
+
+NCM.head(5)
