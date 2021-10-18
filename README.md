@@ -1,4 +1,4 @@
-# Clash-Detection-Matrix-Automation
+# Revit to Navisworks Clash-Detection-Matrix-Automation
 Automating Clash Detection through a workflow from Revit, Dynamo and ending in Navisworks using Python scripting as a BIG Data Analytics tool
 
 ## What can you do with this workflow?
