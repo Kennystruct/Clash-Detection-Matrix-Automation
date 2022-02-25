@@ -1,6 +1,5 @@
 # Importing the required packages
 import os
-#import re
 import math
 import uuid
 import datetime as dt
